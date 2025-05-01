@@ -5,6 +5,7 @@ const rootElement = document.getElementById('root');
 const button = document.createElement('button');
 const input = document.createElement("input")
 
+
 button.textContent = 'hey';
 
 rootElement.append(button, input);
